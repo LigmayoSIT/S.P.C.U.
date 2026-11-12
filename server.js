@@ -16,7 +16,7 @@ app.listen(5000, () => {
 const BarFillOut = mongoose.model('BarFillOut', new mongoose.Schema({
     barangayName: String,
     concern: String,
-    priority: Number
+    suggestedPriorityLevel: Number,
 }))
 
 app.post('/api/barangay', async (req, res) => {
