@@ -1,1 +1,15 @@
-<p>navigation-bar works!</p>
+<nav class="NavigationBar">
+    <div class="app-name">Public Barangay Forums and Petitions</div>
+    <ul class="nav-links">
+        <li>
+            <a routerLink="/main-page" routerLinkActive="active-link">Home</a>
+        </li>
+        <li>
+            <a routerLink="/forms-page" routerLinkActive="active-link">Form a Petition</a>
+        </li>
+        <li>
+            <a routerLink="/public-viewing-page" routerLinkActive="active-link">Pending Form Lists</a>
+        </li>
+    </ul>
+</nav>
+<ng-content></ng-content>
