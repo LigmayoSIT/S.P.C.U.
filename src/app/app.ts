@@ -6,7 +6,7 @@ import { FormsPage } from './forms-page/forms-page';
 import { PublicViewingPage } from './public-viewing-page/public-viewing-page';
 
 @Component({
-  imports: [RouterOutlet, NavigationBar],
+  imports: [RouterOutlet, NavigationBar, MainPage, FormsPage, PublicViewingPage],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
